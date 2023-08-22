@@ -1,0 +1,71 @@
+:root {
+  --white: #eee;
+  --lightblue: #00a7e1;
+  --darkblue: #00171f;
+  --blue: #003459;
+  --teal: #007ea7;
+}
+
+body,
+html {
+  margin: 10px;
+  padding: 0;
+  background: #00171f;
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.outline-blue {
+  border: solid 1px var(--teal);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.muted {
+  color: var(--teal);
+}
+
+.spaced {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--teal);
+  transition-duration: 150ms;
+}
+
+h1 {
+  margin: 0px 10px 0px 10px;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.row {
+  flex-direction: row;
+}
